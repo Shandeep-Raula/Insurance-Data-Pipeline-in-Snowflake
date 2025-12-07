@@ -1,4 +1,4 @@
-# sf-train-inference-pipeline
+# Insurance-Data-Pipeline-in-Snowflake
 
 
 
