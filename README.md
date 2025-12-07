@@ -10,8 +10,7 @@ If you'd like to run the code locally, you can use the code in "create_locally".
 
 The code helps to create this pipeline, excluding the data coming in from Snowpipe Streaming.
 
-![ml pipeline](https://github.com/tx-smitht/sf-train-inference-pipeline/assets/112910116/96d3420f-8870-4ae9-8356-f7d1a9d0b870)
-
+![ml pipeline](https://github.com/Shandeep-Raula/Insurance-Data-Pipeline-in-Snowflake/blob/main/Project%20Architecture.png)
 If you want to do this yourself, start with creating the necessary tables (sql file), then load the data (data_load.ipynb), then run through the model training and prediction python files. 
 
 I used the popular [Health Insurance dataset](https://www.kaggle.com/datasets/sridharstreaks/insurance-data-for-machine-learning?resource=download) and loaded it in using Kaggle's API 
@@ -20,5 +19,4 @@ kaggle datasets download -d sridharstreaks/insurance-data-for-machine-learning -
 ```
 
 
-Here's a gif of the Streamlit app that lets you see your models and how they're performing:
-![Mar-19-2024 17-15-47](https://github.com/tx-smitht/sf-train-inference-pipeline/assets/112910116/19704cbe-0116-4e9e-9e4d-03499d2c26f6)
+
